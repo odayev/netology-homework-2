@@ -1,0 +1,40 @@
+.cartList2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cartItem2 {
+    width: 100%;
+    position: relative;
+}
+
+.cartImage2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: left center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.1) 0px 8px 16px -8px;
+}
+
+
+.info2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+
+.price2 {
+    left: 30px;
+    
+}
+
+
